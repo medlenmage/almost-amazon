@@ -5,7 +5,7 @@ const cartToDom = () => {
   <h3>THIS IS A CART</h3>
   `;
 
-  utils.printToDom('cart', domString)
+  utils.printToDom('#cart', domString)
 };
 
 export default { cartToDom };

@@ -6,8 +6,8 @@ import cart from './cart.js'
 
 const addToCartEvent = (e) => {
   e.preventDefault();
-
-  cart.cartToDom();
+  const book = bookData.getBook();
+  cart.addToCart(book);
 }
 
 const makeStore = () => {
@@ -16,8 +16,8 @@ const makeStore = () => {
   <h2>Our One Book</h2>
   Buy now! It's Only
   <h3 id="book-price">${bookInfo.price}</h3>
-  <img src="${bookInfo.image}">
-  <button id="add-to-cart" class="btn btn-danger">Add to cart<button>
+  <img src="${bookInfo.image}" class="necro">
+  <button id="add-to-cart" class="btn btn-danger">Add to cart
   `;
 
   utils.printToDom('#store', domString);

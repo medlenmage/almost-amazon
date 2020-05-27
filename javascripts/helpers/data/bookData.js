@@ -1,6 +1,6 @@
 const bookInfo = {
   price: 24.99,
-  title: 'Book Title For Now',
+  title: 'Necromicon',
   image: './assets/necro.png'
 }
 

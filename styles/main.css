@@ -1,3 +1,22 @@
 body {
   background-color: aquamarine;
 }
+
+.necro {
+  height: 400px;
+  width: 300px;
+}
+
+.col-6 {
+  border: 2px solid red;
+  display: block;
+  margin: auto;
+}
+
+.cart-container {
+  border: 2px solid yellow;
+  height: 750px;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
